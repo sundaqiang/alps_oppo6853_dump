@@ -1,0 +1,25 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.common_center.wlan.assistant" />
+  <feature name="oppo.common_center.master" />
+  <feature name="oppo.coloros.fake.bs" />
+  <feature name="oplus.softsim.ignore_data_setting"/>
+  <feature name="oppo.common_center.wifi.smart_connect"/>
+  <feature name="oppo.common_center.show.sceneservice.card"/>
+  <feature name="oppo.dm.privacy.disable.upload"/>
+  <feature name="oppo.contacts.support.card.recognize" />
+  <feature name="oppo.common_center.wifi.qrcode_share" />
+  <feature name="oppo.common_center.bt.oppopods"/>
+  <feature name="oppo.stk.launcher" />
+  <feature name="oppo.all.client" />
+  <feature name="oppo.all.client_7_5" />
+  <feature name="oppo.all.client_lte_lte" />
+  <feature name="oppo.stk.launcher" />
+  <feature name="oppo.phone.show.number.mark" />
+  <feature name="oppo.phone.harass.intercept.off" />
+  <feature name="oppo.ocloud.photo.sync" />
+  <feature name="oppo.feature.duplicate.permission.install" />
+  <feature name="oppo.sdcard.storage.switch.support" />
+  <feature name="oppo.launcher.download.progress.support" />
+  <feature name="android.software.live_wallpaper" />
+</permissions>
