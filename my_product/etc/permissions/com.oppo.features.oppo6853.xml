@@ -1,0 +1,5 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="oppo.hw.manufacturer.mtk" />
+    <feature name="mtk.gemini.support" />
+</permissions>

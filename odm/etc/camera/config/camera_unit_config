@@ -1,0 +1,205 @@
+{
+  "camera_id_list": ["0", "1", "2", "3", "6"],
+
+  "main_info": {
+    "version_code": "1.0.2",
+    "version_date": "20200912000000"
+  },
+
+  "mode_type_list": {
+    "rear_wide": ["video_mode", "photo_mode"],
+    "rear_main": ["video_mode", "photo_mode"],
+    "front_main": ["video_mode", "photo_mode"],
+    "rear_main_rear_wide": ["multi_camera_mode"],
+    "rear_main_rear_tele": ["multi_camera_mode"],
+    "rear_wide_rear_tele": ["multi_camera_mode"],
+    "rear_main_front_main": ["multi_camera_mode"]
+  },
+
+  "device_info": {
+    "platform": "mtk"
+  },
+
+  "mode_cameraType_feature_values": {
+    "photo_mode": {
+      "rear_wide": {
+        "focus": ["1", "3", "4"]
+      },
+      "rear_main": {
+        "flash": ["on", "off", "auto", "torch"],
+        "focus": ["1", "3", "4"]
+      },
+      "front_main": {
+      }
+    },
+    "video_mode": {
+      "rear_wide": {
+        "stabilization": ["super_stabilization"],
+        "fps": ["video_30fps", "video_60fps"],
+        "focus": ["2", "3", "4"]
+      },
+      "rear_main": {
+        "flash": ["off", "torch"],
+        "stabilization": ["video_stabilization", "super_stabilization"],
+        "fps": ["video_30fps", "video_60fps"],
+        "stabilization_fps_range": ["50", "50"],
+        "focus": ["2", "3", "4"],
+        "ai_night_video": ["1", "0"]
+      },
+      "front_main": {
+        "fps": ["video_30fps"],
+        "ai_night_video": ["1", "0"]
+      }
+    },
+    "night_mode": {
+      "rear_main": {
+        "focus": ["1", "3", "4"]
+      }
+    },
+    "portrait_mode": {
+      "rear_portrait": {
+        "focus": ["1", "3", "4"]
+      }
+    },
+    "multi_camera_mode": {
+        "rear_main_front_main": {},
+        "rear_main": {
+            "flash": ["off", "torch"],
+            "focus": ["1", "3", "4"]
+        },
+        "front_main": {}
+    }
+  },
+
+  "mode_cameraType_feature_subFeature_values": {
+    "video_mode": {
+      "rear_main": {
+        "beauty": {
+          "exfoliating": [0,1,2,3],
+          "thin_face": [0,1,2,3,4]
+        }
+      }
+    }
+  },
+
+  "mode_feature_conflict_list": {
+    "video_mode": {
+      "rear_main": {
+        "stabilization": {
+          "super_stabilization": {
+            "fps": ["video_30fps"],
+            "ai_night_video": []
+          }
+        },
+        "ai_night_video": {
+          "1": {
+            "fps": ["video_60fps"],
+            "stabilization": ["super_stabilization"]
+          }
+        }
+      },
+      "rear_wide": {
+        "stabilization": {
+          "super_stabilization": {
+            "fps": ["video_60fps"]
+          }
+        }
+      }
+    }
+  },
+
+  "feature_operation_mode": {
+    "video_mode": {
+      "ai_night_video": {
+        "1": "80a7"
+      },
+      "stabilization": {
+        "super_stabilization": "8028"
+      },
+      "fovc": {
+        "on": "0300"
+      },
+      "fps": {
+        "video_60fps": "8021"
+      }
+    }
+  },
+
+  "mode_operation_mode": {
+    "photo_mode": "8001",
+    "video_mode": "800b",
+    "night_mode": "8019",
+    "panorama_mode": "8007",
+    "professional_mode": "8009",
+    "sticker_mode": "800E",
+    "fastvideo_mode": "800C",
+    "slowvideo_mode": "800D",
+    "portrait_mode": "8011",
+    "multi_camera_mode": "802C"
+  },
+
+  "usecase_info": {
+    "sat_photo_case": [{"preview": "rear_sat"}, {"capture": "rear_main"}, {"capture": "rear_wide"}, {"capture": "rear_tele"}],
+    "sat_night_case": [{"reprocess_input": "rear_sat"}, {"preview": "rear_sat"}, {"raw_output": "rear_sat"}, {"capture": "rear_main"}, {"capture": "rear_wide"}, {"capture": "rear_tele"}],
+    "none_sat_night_case": [{"reprocess_input": "rear_main"}, {"preview": "rear_main"}, {"raw_output": "rear_main"},{"capture": "rear_main"}],
+    "portrait_bokeh_case": [{"preview": "rear_main"}, {"preview": "rear_wide"}, {"capture": "rear_main"}, {"capture": "rear_wide"}],
+    "single_photo_case": [{"preview": "var_camera"}, {"capture": "var_camera"}],
+    "recorder_video_case": [{"preview": "var_camera"}, {"video_recorder": "var_camera"}],
+    "eis_pro_case": [{"preview": "var_camera"}, {"video_recorder": "var_camera"}],
+    "codec_video_case": [{"preview": "var_camera"}, {"capture": "var_camera"}],
+    "preview_frame_case": [{"preview": "var_camera"}, {"preview_frame": "var_camera"}, {"capture": "var_camera"}],
+    "multi_case_main_wide": [{"preview": "rear_main"}, {"preview": "rear_wide"}],
+    "multi_case_main_tele": [{"preview": "rear_main"}, {"preview": "rear_tele"}],
+    "multi_case_wide_tele": [{"preview": "rear_wide"}, {"preview": "rear_tele"}],
+    "simple_preview_case": [{"preview": "var_camera"}]
+  },
+
+  "support_default_preview_sizes": ["1920X1080","1280X720"],
+
+  "mode_type_feature_support_preview_size": {
+    "video_mode": {
+      "rear_main": {
+        "super_stabilization": ["1920X1080", "1920X1080"]
+      },
+      "rear_wide": {
+        "super_stabilization": ["1920X1080", "1920X1080"]
+      }
+    }
+  },
+
+  "support_default_video_sizes": ["4000X3000", "3840X2160", "2752X2064", "1920X1080", "1280X720"],
+
+  "mode_type_feature_max_video_size": {
+    "video_mode": {
+      "rear_main": {
+        "video_stabilization": ["1920X1080", "1920X1080"],
+        "super_stabilization":["1920X1080", "1920X1080"],
+        "default": ["1920X1080", "1920X1080"]
+      },
+      "rear_wide": {
+        "video_stabilization": ["1920X1080", "1920X1080"],
+        "super_stabilization":["1920X1080", "1920X1080"],
+        "default": ["1920X1080", "1920X1080"]
+      },
+      "front_main": {
+        "default": ["1920X1080", "1920X1080"]
+      }
+    }
+  },
+
+  "mode_cameraType_sensor_number": {
+    "portrait_mode": [{"rear_portrait": "2"}]
+  },
+
+  "parameter_feature_mapping": {
+    "com.oppo.configure.video.stabilization": ["stabilization", "String", "3"],
+    "com.oppo.configure.video.fps": ["fps", "String", "3"],
+    "com.cameraunit.configure.video.stabilization.fps": ["stabilization_fps_range", "String", "3"],
+    "com.oppo.preview.video.beauty.exfoliating": ["exfoliating", "String", "1"],
+    "com.oppo.preview.video.beauty.thin_face": ["thin_face", "String", "1"],
+    "com.oppo.preview.flash.mode": ["flash", "String", "1"],
+    "com.oppo.preview.focus.mode": ["focus", "Integer", "1"],
+    "com.oplus.sat.none.zoom.ratio": ["none_zoom_ratio", "Float", "1"],
+    "com.oplus.video.stabilization.mode": ["ai_night_video", "Integer", "3"]
+  }
+}

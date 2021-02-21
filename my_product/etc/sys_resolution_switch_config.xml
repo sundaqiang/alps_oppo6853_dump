@@ -1,0 +1,69 @@
+<!-- ForceFhd  表示在当前screenwidth下app显示有异常，需要强制调整到目标width  -->
+<!-- CompatFhd 名单使用 FHD+ -->
+<!-- oppo固定density的app不能添加到CompatFhd中  -->
+<!--Display Compat mode-->
+<sys_resolution_switch_config>
+<version>20200421</version>
+<!-- 配置该文件可以支持的竖屏时候屏幕宽度，目的是推送文件出现错误，如果1440的配置推送到1080后名单会失效  -->
+<screenwidth>1080</screenwidth>
+<!-- scaleinfo格式 scale = 原宽度除目标宽度的值，ivnscale = 1除scale,density为整数值   -->
+<scaleinfo>1.5,0.6666666666667,320</scaleinfo>
+<!-- 智能分辨率配置格式-可以仅仅包含包名，也可以包名后包含 scale 信息 -->
+<!--  pkg,scale,invscale,density -->
+<CompatFhd>com.oppo.test</CompatFhd>  <!-- 例子1 -->
+<CompatFhd>com.oppo.text2,1.33333333334,0.75,360</CompatFhd>  <!-- 例子2  360=480*0.75-->
+<CompatFhd>com.imangi.templerun2</CompatFhd>  <!-- 神庙逃亡2 -->
+<CompatFhd>com.kiloo.subwaysurf</CompatFhd>  <!-- 地铁跑酷-->
+<CompatFhd>com.netease.dhxy.nearme.gamecenter,1.33333333334,0.75,360</CompatFhd>  <!-- 大话西游 -->
+<CompatFhd>com.cocos2d.fishingfun.nearme.gamecenter,1.33333333334,0.75,360</CompatFhd>
+<CompatFhd>org.cocos2d.fishingjoy3,1.33333333334,0.75,360</CompatFhd>
+<CompatFhd>org.cocos2dx.FishingJoy2,1.33333333334,0.75,360</CompatFhd>
+<CompatFhd>com.gbits.atm.nearme.gamecenter,1.33333333334,0.75,360</CompatFhd><!-- 问道 -->
+<CompatFhd>com.nextwave.wcc2</CompatFhd><!-- World Cricket Championship -->
+<CompatFhd> com.imangi.templerun2</CompatFhd>
+<CompatFhd> com.nextwave.wcc2</CompatFhd>
+<CompatFhd> com.bianfeng.qp.mjqj</CompatFhd>
+<CompatFhd> com.yingxiong.heroo.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.mobbanana.zdmnqnew.nearme.gamecenter</CompatFhd>
+<CompatFhd> com.jsdw.huochaizzx2.nearme.gamecenter</CompatFhd>
+<CompatFhd> com.ch.bubuduojian</CompatFhd>
+<CompatFhd>com.netease.mc.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.ea.simcitymobile.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.hero.sm.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.netease.hyxd.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.dts.freefireth</CompatFhd>
+<CompatFhd>com.wepie.snake.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.qqgame.hlddz</CompatFhd>
+<CompatFhd>com.nearme.gamecenter.ddz.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.mfp.jelly.oppo</CompatFhd>
+<CompatFhd>com.zengame.zrttddz.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.garena.game.kgtw</CompatFhd>
+<CompatFhd>com.garena.game.kgvn</CompatFhd>
+<CompatFhd>com.netmarble.penta</CompatFhd>
+<CompatFhd>com.garena.game.kgth</CompatFhd>
+<CompatFhd>com.garena.game.kgsam</CompatFhd>
+<CompatFhd>com.garena.game.kgvntest</CompatFhd>
+<CompatFhd>com.garena.game.kgcn</CompatFhd>
+<CompatFhd>com.garena.game.kges</CompatFhd>
+<CompatFhd>com.garena.game.kgid</CompatFhd>
+<CompatFhd>com.ngame.allstar.eu</CompatFhd>
+<CompatFhd>com.miHoYo.bh3.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.zengame.ttddzzrb.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.hlddz.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.tencent.pao</CompatFhd>
+<CompatFhd>com.turbochilli.rollingsky_cn.nearme.gamecenter</CompatFhd>
+<CompatFhd>com.tencent.peng</CompatFhd>
+<CompatFhd>com.cmplay.tiles2_cn</CompatFhd>
+<CompatFhd>com.popcap.pvz2cthdop</CompatFhd>
+<CompatFhd>com.qqgame.happymj</CompatFhd>
+<CompatFhd>com.happyelements.AndroidAnimal</CompatFhd> <!-- 开心消消乐 -->
+<CompatFhd>com.minitech.miniworld.nearme.gamecenter</CompatFhd><!-- 迷你世界 -->
+<CompatFhd>com.pwrd.xxajh.nearme.gamecenter</CompatFhd><!--  笑傲江湖 -->
+<CompatFhd>com.pwrd.xxajh.laohut</CompatFhd><!--  笑傲江湖-->
+<CompatFhd>com.tencent.tmgp.xxajh</CompatFhd><!--  笑傲江湖 -->
+<CompatFhd>com.tencent.tmgp.pubgmhd</CompatFhd><!-- 和平精英  -->
+<CompatFhd>com.outfit7.mytalkingtomfree.nearme.gamecenter</CompatFhd><!-- 我的tom猫 -->
+<CompatFhd>com.netease.mc.m4399</CompatFhd><!-- 我的世界 -->
+<CompatFhd>com.tencent.tmgp.sgame</CompatFhd><!-- 王者荣耀 -->
+</sys_resolution_switch_config>
+

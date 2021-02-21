@@ -1,0 +1,39 @@
+# build prop start
+persist.vendor.engineer.hide.log=6996
+persist.vendor.engineer.hide.warn=6776
+ro.oplus.system.camera.name=com.oppo.camera
+persist.sys.bluetooth.wearcheck_support=true
+ro.camera.hfr.enable=1
+ro.camera.videoeis.enable=1
+ro.camera.temperature.limit=420
+ro.oplus.screenhole.border=9
+ro.separate.soft=20633
+ro.rom.featrue=allnet
+ro.product.authentication=2020CP10091
+ro.oppo.market.name=realme Q2 Pro 5G
+persist.sys.oppo.fusionlight=true
+persist.sys.oppo.proximity=true
+ro.build.product=RMX2173
+ro.vendor.product.oem=RMX2173
+ro.vendor.product.device.oem=RMX2173CN
+ro.mediatek.version.release=RMX2173_11_C.05_210131
+ro.vendor.mediatek.version.release=RMX2173_11_C.05
+ro.build.display.id_ims=RMX2173_11_C.05_210131
+persist.version.confidential=false
+ro.version.confidential=false
+ro.build.version.opporom=V11.1
+ro.build.version.realmeui=V2.0
+ro.com.google.clientidbase=android-oppo
+persist.sys.autoclear=1
+############################## Add OPPO Info Common Begin ##############################
+persist.vendor.radio.nr_display_rule=1
+persist.vendor.radio.lte_con_stat_delay_timer=0
+persist.vendor.radio.scg_con_stat_delay_timer=0
+persist.vendor.radio.support_optimized_nr=true
+############################## Add OPPO Info Common End ##############################
+ro.oppo.mtk_gps_mpe=1
+ro.vendor.local.nlp=com.amap.android.location
+odm.dirac.path=/odm/etc/dirac
+ro.oplus.image.odm.version=version_stub
+import /odm/etc/${ro.boot.prjname}/build.prop
+import /mnt/vendor/my_manifest/build.prop

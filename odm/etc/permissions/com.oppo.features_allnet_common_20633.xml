@@ -1,0 +1,8 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<permissions>
+    <!-- Haiping.Zhong@PSW.AD.BuildConfig.1058552, 2017/08/07, Add for CommonSoft sensor feature step and gyroscope -->
+    <feature name="android.hardware.sensor.stepcounter" />
+    <feature name="android.hardware.sensor.stepdetector" />
+    <!-- Yizhang.Peng@PSW.AD.OppoFeature.FusionLight.1535903, 2019/02/20, Add for light function -->
+    <feature name="oppo.sensor.fusionlight.support" />
+</permissions>

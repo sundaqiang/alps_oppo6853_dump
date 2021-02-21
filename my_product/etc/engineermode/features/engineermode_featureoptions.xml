@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.type.c.support" />
+    <feature name="com.oppo.eng.vooc.charger.support" />
+    <feature name="com.oppo.eng.svooc.charger.support" />
+    <feature name="com.oppo.eng.pd.charger.support" />
+    <feature name="com.oppo.eng.ship.mode.support" />
+    <feature name="com.oppo.eng.battery.flag.support" />
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="gyroscope.radian.pass" value="0.08"/>
+    <feature name="com.oppo.eng.network.air.interface.detect.support" />
+
+    <!-- Network feature -->
+    <feature name="com.oppo.eng.gemini.support" />
+    <feature name="com.oppo.eng.sim.hot.swap.support" />
+    <feature name="com.oppo.eng.network.sar.earpiece.detect.support" />
+    <feature name="com.oppo.eng.network.air.interface.detect.support" />
+    <!-- Multimedia feature -->
+    <feature name="com.oppo.eng.smart.pa.calibrate.support" />
+    <feature name="com.oppo.eng.display.screen.oled.support" />
+    <!-- Connectivity feature -->
+    <feature name="com.oppo.eng.nfc.ese.support" />
+
+    <!-- Android feature -->
+    <feature name="com.oppo.eng.devices.cali.status.check.support" />
+    <!-- for Aging V1.2 -->
+    <feature name="com.oppo.eng.production.line.aging.support" />
+    <!-- for Aging V1.3 -->
+    <feature name="com.oppo.eng.production.line.aging.new.support" />
+    <feature name="com.oppo.eng.navigation.bar.support" />
+    <feature name="com.oppo.eng.standlone.userdata.support" />
+    <feature name="com.oppo.eng.mtk.atm.mode.support" />
+    <feature name="com.oppo.eng.mtk.platform" />
+    <feature name="com.oppo.eng.cn.platform" />
+
+    //dual core
+    <feature name="com.oppo.eng.normal.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.normal.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.normal.charger.voltage.range" value="[4250,5500]"/>
+    <feature name="com.oppo.eng.normal.charge.current.range" value="(-1200,-250)"/>
+    <feature name="com.oppo.eng.normal.charge.current.slow.range" value="(-1200,-100)"/>
+
+    <feature name="com.oppo.eng.vooc.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.vooc.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.vooc.charger.voltage.range" value="[4250,5500]"/>
+    <feature name="com.oppo.eng.vooc.charge.current.range" value="(-2300,-500)"/>
+    <feature name="com.oppo.eng.vooc.charge.current.slow.range" value="(-2300,-200)"/>
+
+    <feature name="com.oppo.eng.pd.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.pd.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.pd.charger.voltage.range" value="[8250,9500]"/>
+    <feature name="com.oppo.eng.pd.charge.current.range" value="(-2200,-500)"/>
+    <feature name="com.oppo.eng.pd.charge.current.slow.range" value="(-2200,-200)"/>
+
+</features>

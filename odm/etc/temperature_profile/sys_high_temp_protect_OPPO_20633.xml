@@ -1,0 +1,37 @@
+<filter-conf>
+    <version>2020052901</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_high_temp_protect</filter-name>
+    <HighTemperatureProtectSwitch>true</HighTemperatureProtectSwitch>
+    <HighTemperatureShutdownSwitch>true</HighTemperatureShutdownSwitch>
+    <HighTemperatureFirstStepSwitch>true</HighTemperatureFirstStepSwitch>
+    <HighTemperatureDisableFlashSwitch>true</HighTemperatureDisableFlashSwitch>
+    <CountBatteryChangedForFosUpdateTime>30</CountBatteryChangedForFosUpdateTime>
+    <HighTemperatureShutdownUpdateTime>15</HighTemperatureShutdownUpdateTime>
+    <HighTemperatureProtectFirstStepIn>465</HighTemperatureProtectFirstStepIn>
+    <HighTemperatureProtectFirstStepOut>445</HighTemperatureProtectFirstStepOut>
+    <HighTemperatureProtectThresholdIn>510</HighTemperatureProtectThresholdIn>
+    <HighTemperatureProtectThresholdOut>490</HighTemperatureProtectThresholdOut>
+    <HighTemperatureProtectShutDown>750</HighTemperatureProtectShutDown>
+    <MediumTemperatureProtectThreshold>10000</MediumTemperatureProtectThreshold>
+    <HighTemperatureDisableFlashLimit>450</HighTemperatureDisableFlashLimit>
+    <HighTemperatureDisableFlashChargeLimit>450</HighTemperatureDisableFlashChargeLimit>
+    <camera_temperature_limit>480</camera_temperature_limit>
+    <HighTemperatureFinishCameraLimit>480</HighTemperatureFinishCameraLimit>
+    <HighTemperatureProtect1080PVideoSwitch>true</HighTemperatureProtect1080PVideoSwitch>
+    <HighTemperatureProtect720PVideoSwitch>true</HighTemperatureProtect720PVideoSwitch>
+    <HighTemperatureDisableFlashCountTime>30</HighTemperatureDisableFlashCountTime>
+    <DoubleCheckTime>30000</DoubleCheckTime>
+    <HighTemperatureControlVideoRecordSwitch>true</HighTemperatureControlVideoRecordSwitch>
+    <HighTemperatureDisableVideoRecordLimit>480</HighTemperatureDisableVideoRecordLimit>
+    <HighTemperatureEnableVideoRecordLimit>460</HighTemperatureEnableVideoRecordLimit>
+    <HighTemperatureRestoreBrightnessLimit>460</HighTemperatureRestoreBrightnessLimit>
+    <ToleranceFirstStepIn>490</ToleranceFirstStepIn>
+    <ToleranceFirstStepOut>470</ToleranceFirstStepOut>
+    <ToleranceSecondStepIn>520</ToleranceSecondStepIn>
+    <ToleranceSecondStepOut>500</ToleranceSecondStepOut>
+    <ToleranceThreshold>100</ToleranceThreshold>
+    <ToleranceStart>430</ToleranceStart>
+    <ToleranceStop>410</ToleranceStop>
+    <ToleranceInterval>30000</ToleranceInterval>
+</filter-conf>

@@ -1,0 +1,57 @@
+<!--
+/* *****************************************************************************
+** File: manifest_oppo_dsds_eSE.xml
+** VENDOR_EDIT
+** Copyright (C), 2019, Oppo Mobile Comm Corp., Ltd
+**
+** Description:
+**       manifest_ss.xml+manifest_secure_element_ss.xml
+**
+** Version: 1.0
+** Date created: 14:30:00, 2019/4/25
+** Author: baozhu@oppo.com
+** TAG: NW.SIM.1704058
+** ******************************* Revision History: ***************************
+**         <author>                <date>            <desc>
+**         Baozhu Yu               2019/4/25          create
+** *****************************************************************************
+*/
+-->
+<manifest version="1.0" type="device">
+   <hal format="hidl">
+        <name>android.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>IRadio</name>
+            <instance>slot1</instance>
+            <instance>imsAospSlot1</instance>
+            <instance>se1</instance>
+            <instance>em1</instance>
+        </interface>
+        <interface>
+            <name>ISap</name>
+            <instance>slot1</instance>
+        </interface>
+        <fqname>@1.5::IRadio/slot1</fqname>
+        <fqname>@1.5::IRadio/imsAospSlot1</fqname>
+        <fqname>@1.5::IRadio/se1</fqname>
+        <fqname>@1.5::IRadio/em1</fqname>
+    </hal>
+   <hal format="hidl">
+        <name>vendor.mediatek.hardware.mtkradioex</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IMtkRadioEx</name>
+            <instance>mtkSlot1</instance>
+            <instance>imsSlot1</instance>
+            <instance>mtkSe1</instance>
+            <instance>mtkEm1</instance>
+            <instance>mtkAssist1</instance>
+            <instance>mtkRcs1</instance>
+            <instance>mtkCap1</instance>
+            <instance>mtkSmartRatSwitch1</instance>
+        </interface>
+    </hal>
+</manifest>

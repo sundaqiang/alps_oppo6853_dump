@@ -1,0 +1,42 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <!-- PengNan@CHG.BSP 2016/1/14, recover feature -->
+    <feature name="oppo.otg.connection.menu.support" />
+    <feature name="oppo.app2sd.disabled" />
+    <!-- Runsheng.Pei@Swdp.Android.Ams.Broadcast.Optimize, 2016/02/01, add for oppo broadcast optimize: -->
+    <feature name="oppo.ams.broadcast.oppobt" />
+    <!-- Runsheng.Pei@Swdp.Android.Ams.Broadcast.Optimize, 2016/07/20, add for oppo broadcast optimize: -->
+    <feature name="oppo.ams.broadcast.jumpqueue" />
+    <feature name="oppo.ams.broadcast.adjust.pbrecque" />
+    <feature name="oppo.ams.broadcast.adjust.obrecque" />
+    <feature name="oppo.ams.broadcast.filter.power" />
+    <!-- Yinqi.Xiong@PSW.AD.Performance.Power, 2016/09/07, add for net wake up control: -->
+    <feature name="oppo.performance.power.netwake"  />
+    <!-- Runsheng.Pei@PSW.AD.Ams, 2017/05/15, add for control unnormal activity start frequecy.-->
+    <feature name="oppo.ams.act.freqcontrol" />
+    <!-- Junhao.Liang@PSW.AD.FaceRecognition.1070880, 2018/06/19, Add for closed eye unlock -->
+    <feature name="oppo.face.closeeye.detect" />
+    <feature name="android.hardware.biometrics.face" />
+    <!-- Wenfeng.Li@PSW.AD.OppoFeature.CommonSoft.0, 2019/01/29, Add for channel delete with app -->
+    <feature name="oppo.user.delete.channel.support"/>
+    <!-- shifan@bsp.tp, 2019/10/28, Add for black gesture -->
+    <feature name="oppo.black.gesture.proximitysensor.support"/>
+    <!-- xuan.zhou@Apps, 2019/11/18, add for support wake up arouse  -->
+    <feature name="oppo.black.gesture.wake.up.arouse.support" />
+    <feature name="oppo.support.single.partition" />
+    <!-- <feature name="oppo.proximity.tp.support" /> -->
+    <feature name="oppo.display.screen.defaultsmartmode" />
+    <!-- ZongYi.Huang@framework, 2020/09/16, Add for control center app display -->
+    <feature name="oppo.screen.hovering.support" />
+    <!-- Wenkan.Zhu@PSW.CN.WiFi.Network.internet.1800709, 2019/01/24,  Add for private feature -->
+    <feature name="oppo.wlan.privateDns.support" />
+    <!-- xiaohu.mei@ANDROID.PMS, 2016/02/17, add for security pay -->
+    <feature name="oppo.securitypay.support" />
+    <!-- weixin.cao@Apps, 2020/10/14, add for childspace support -->
+    <feature name="oppo.childspace.support" />
+    <!-- Pengfei.Zhang@ROM.SDK,2020/03/12, add for remote diagnosis-->
+    <feature name="oppo.remote.diagnosis.support" />
+    <!-- jingang.guo@ANDROID.INPUT, 2020/10/27, Add for prevent misoperation -->
+    <feature name="oppo.tp.limit.support" />
+</permissions>

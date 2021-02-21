@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        bit 6 | bit 5  | bit 4  | bit 3  | bit 2 | bit 1 | bit 0
+        wifi5 | wifi2.4| headset| charger| otg   | usb   | head_body
+-->
+<Root>
+    <Product name="20633">
+        <AllRegions name="CE">CE</AllRegions>
+        <Region name="CE">
+            <Scenarios>0000001</Scenarios>
+            <Scene mask="0000001">
+                <Sce index="1"  comment="earpiece on">1</Sce>
+                <Sce index="0"  comment="earpiece off">2</Sce>
+                <Sce index="97"  comment="wifi 2.4 + wifi 5 + earpiece on">3</Sce>
+                <Sce index="96"  comment="wifi 2.4 + wifi 5 + earpiece off">4</Sce>
+                <Sce index="33"  comment="wifi 2.4 + earpiece on">5</Sce>
+                <Sce index="32"  comment="wifi 2.4 + earpiece off">6</Sce>
+                <Sce index="65"  comment="wifi 5 + earpiece on">7</Sce>
+                <Sce index="64"  comment="wifi 5 + earpiece off">8</Sce>
+            </Scene>
+            <Data>
+                <Id index="0">
+                    <All type="sar" band="">0</All>
+                </Id>
+                <Id index="1">
+                    <Dsi type="sar" >1</Dsi>
+                </Id>
+                <Id index="2">
+                    <Dsi type="sar" >2</Dsi>
+                </Id>
+                <Id index="3">
+                    <Dsi type="sar" >3</Dsi>
+                </Id>
+                <Id index="4">
+                    <Dsi type="sar" >4</Dsi>
+                </Id>
+                <Id index="5">
+                    <Dsi type="sar" >5</Dsi>
+                </Id>
+                <Id index="6">
+                    <Dsi type="sar" >6</Dsi>
+                </Id>
+                <Id index="7">
+                    <Dsi type="sar" >7</Dsi>
+                </Id>
+                <Id index="8">
+                    <Dsi type="sar" >8</Dsi>
+                </Id>
+            </Data>
+        </Region>
+    </Product>
+</Root>

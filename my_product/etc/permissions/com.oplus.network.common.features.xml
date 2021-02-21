@@ -1,0 +1,7 @@
+<oplus-config>
+    <!-- GuiXiang@NETWORK.REG.8515, 2019/01/03, Add for 5G support feature -->
+    <oplus-feature name="oplus.software.radio.support_5g"/>
+    <!-- HeZhihui@NETWORK.REG.8515, 2020/06/12, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nr_icon_optimized_enabled"/>
+    <oplus-feature name="oplus.software.radio.ntp_preferred"/>
+</oplus-config>
